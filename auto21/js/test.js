@@ -1,8 +1,8 @@
-$(document).ready(function(){
-   $('.top_header').load('_layouts/top.html');
-   $('head').load('_layouts/head.html');
-   $('header').load('_layouts/header.html');
-
+$(document).ready(function () {
+    $('.top_header').load('_layouts/top.html');
+    $('head').load('_layouts/head.html');
+    $('header').load('_layouts/header.html');
+    $('.service').load('_layouts/service.html');
 
 
 });

@@ -1,0 +1,124 @@
+/*-- -----*/
+html,body{
+    height:100%;
+}
+
+a:focus{
+    outline:0 solid ;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    margin:0 0 15px;
+    font-weight:700;
+}
+a{
+    transition:0.3s;
+    color:#333;
+}
+a:hover{
+    text-decoration:none ;
+}
+
+/*-- --------*/
+
+/*-- custom css --*/
+
+
+.section-header p{
+    font-size:18px;
+}
+
+.single-service{
+    border:1px solid #ebebeb;
+    background:#eee;
+}
+
+.service-bg{
+    height:200px;
+    position:relative;
+}
+.service-bg-1{
+    background:url("https://images.pexels.com/photos/474/black-and-white-car-vehicle-vintage.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat ;
+    background-size:cover;
+    background-position:center center;
+}
+.service-bg-2{
+    background:url("https://images.pexels.com/photos/40658/classic-car-automobile-car-retro-40658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat ;
+    background-size:cover;
+    background-position:center center;
+}
+.service-bg-3{
+    background:url("https://images.pexels.com/photos/422195/pexels-photo-422195.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.service-bg-4{
+    background:url("https://images.pexels.com/photos/81363/office-work-desk-computer-81363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.service-bg-5{
+    background:url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.service-bg-6{
+    background:url("https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.service-bg h2{
+    color:#fff;
+    background:tomato;
+    border:1px solid tomato;
+    font-size:17px;
+    font-weight:700;
+    position:absolute ;
+    left:8%;
+    width:84%;
+    margin:0;
+    bottom:-20px;
+    border-radius:50px;
+    letter-spacing:2px;
+    
+}
+.single-service:hover .service-bg h2{
+    background:#fff;
+    color:tomato;
+    transition:.9s;
+}
+.service-text{
+    padding:50px 30px 20px;
+    font-size:15px;
+    font-weight:400;
+}
+
+.service-text p:last-child{
+    margin:0;
+    line-height:1.8;
+}
+
+.btn-aria{
+    display:inline-block;
+    color:tomato;
+    font-size:17px;
+    font-weight:700;
+    text-transform:capitalize;
+}
+
+.fas{
+    line-height:2;
+}
+
+
+
+
+
+
