@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Photo Ninja</title>
+  <style>
+    header{
+      background: url(img/dmistep+++.jpg);
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+    }
+    .header_color{
+       background:rgba(2, 119, 189, .4);
+       height:100%;
+    }
+    .logo{
+      margin-top:18px;
+      margin-left:10px;
+      padding-bottom:0;
+    }
+    .box{
+      width:100%;
+      height:80%;
+      color:#fff;
+    }
+    .text_line{
+     /*margin-right:25px;*/
+    font-size:4em;
+    text-transform:uppercase ;
+    line-height:.86em;
+    letter-spacing:-4px;
+    text-shadow:0 10px 5px rgba(0,0,0,.2);
+    }
+    .pro1__png{
+      margin-top:20px;
+    }
+    .pro1__btn{
+      background:#ffd180;
+    }
+    .box__grey{
+       background:#efeff2;
+       padding-bottom:5px;
+    }
+    .footer{
+    background: linear-gradient(to left, #551d5e, #b31270);
+    
+    }
+    .soc{
+    display:flex;
+    justify-content:center;
+    }
+    .soc__li{
+    margin:10px;
+    }
+    .footer-copyright{
+    background: linear-gradient(to left, #551d5e, #b31270);
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+      .text-line{
+        font-size:3em;
+      }
+      img{
+        margin-top:13px;
+      }
+      .pro1__png{
+        width:35%;
+        margin-left:100px;
+      
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <div class="header_color">
+    <nav class="nav-wrapper transparent">
+    <!--  <div class="container"> -->
+        <a href="#" class="brand-logo"><img class="logo" src="img/logo1.png" width="175px" ></a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">ГЛАВНАЯ</a></li>
+          <li><a href="#">ФОТО</a></li>
+          <li><a href="#">О НАС</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#">Photo's</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+     <!-- </div> -->
+    </nav>
+    <div class="row">
+    <div class="col m12">
+    <div class="box" style="display:table;width:100%;"> 
+    <div style="display:table-cell;vertical-align:bottom;"> 
+    <div style="text-align:right;" class="text_line">дизайнер  мыслитель 
+    </div> 
+    <div style="text-align:right;" class="text_line">философ  разработчик
+    </div> 
+    <div style="text-align:right;" class="text_line">сисадмин  фотограф
+    </div> 
+    </div> 
+    </div>
+    </div>
+    </div>
+    </div>
+  </header>
+  <!--  end header  -->
+  
+  <!--   main  -->
+  <main>
+    <div class="container">
+       <div class="row">
+         <div class="col s12"> 
+            <h2 class="section__about__h2">О нас</h2>
+            <p class="about_text">Отличная идея - это ничто без исполнения, и у нас есть возможность сделать это.
+            DMISTEP - это креативное агентство, предлагающее полный спектр услуг, включающих: дизайн и разработку веб-сайтов, дизайн и разработку мобильных приложений, цифровой маркетинг (SEO, социальные медиа, контент), графический дизайн, печать и веб-хостинг. </p>
+            <p class="">Наша талантливая и опытная команда дизайнеров, разработчиков, цифровых специалистов и специалистов по печати работает вместе не только для краткого изложения, но и для предоставления руководств и идей, обеспечивающих максимальную эффективность любому бизнесу.</p>
+         </div>
+       </div>
+    </div>
+   </div><!--  and box about  -->
+   <hr>
+   
+   <!--   box img 1  -->
+   <div class="container">
+       <div class="row">
+       <div class="col s12 m6">
+       <br>
+       <img src="img/pro1.png" class="responsive-img pro1__png" width="75%" > 
+       </div>
+       <div class="col s12 m6">
+       <h2 class="indigo-text">Вэб Разработка.</h2>
+       <h4 class="grey-text lighten-1-text">Адаптивная и Мобильная.</h4>
+       <p>Наша команда предлагает услуги по разработке разнообразных веб решений - от обычных сайтов-визиток до многофункциональных интернет-магазинов и корпоративных интранет порталов.</p>
+       <a class="waves-effect waves-light btn-small pro1__btn">READ MORE</a>
+       </div>
+       </div>
+       
+   </div>
+   <!--  and box img 1  -->
+   
+   <!--   box img 2  -->
+   <div class="box__grey">
+   <div class="container">
+   <div class="row">
+   <div class="col s12 m6">
+   <br>
+   <img src="img/pro2.png" class="responsive-img pro1__png" width="75%" > 
+   </div>
+   <div class="col s12 m6">
+   <h2 class="indigo-text">Вэб Дизайн.</h2>
+   <h4 class="grey-text lighten-1-text">Адаптивная и Мобильная.</h4>
+   <p>Наша команда предлагает услуги по разработке разнообразных веб решений - от обычных сайтов-визиток до многофункциональных интернет-магазинов и корпоративных интранет порталов.</p>
+   <a class="waves-effect waves-light btn-small yellow darken-3">READ MORE</a>
+   </div>
+   </div>
+   </div>
+   </div>
+   <!--  and box img 2  -->
+   <div class="container">
+   <div class="row">
+   <div class="col s12 m6">
+   <br>
+   <img src="img/pro3.png" class="responsive-img pro1__png" width="80%" > 
+   </div>
+   <div class="col s12 m6">
+   <h2 class="indigo-text">Вэб Маркетинг.</h2>
+   <h4 class="grey-text lighten-1-text">Адаптивная и Мобильная.</h4>
+   <p>Наша команда предлагает услуги по разработке разнообразных веб решений - от обычных сайтов-визиток до многофункциональных интернет-магазинов и корпоративных интранет порталов.</p>
+   <a class="waves-effect waves-light btn-small pro1__btn">READ MORE</a>
+   </div>
+   </div>
+   
+   </div>
+    <!--  and box img 3  -->
+  </main>
+
+  <!-- photo / grid -->
+
+  <!-- parallax -->
+
+  <!-- services / tabs -->
+
+  <!-- parallax -->
+
+  <!-- contact form -->
+
+  <!-- footer -->
+<footer class="footer">
+    <div class="container">
+    <div class="row">
+    <div class="col s12">
+    <h4 class="center grey-text text-lighten-3">Социальные Медиа</h4>
+    <div class"col s12">
+    <ul class="soc">
+    <li><a href="#" class="tooltipped btn-floating btn-larg yellow darken-3 soc__li" data-position="bottom" data-tooltip="Instagram"> <i class="fab fa-instagram"></i> </a></li> 
+    <li><a href="#" class="tooltipped btn-floating btn-larg yellow darken-3 soc__li" data-position="bottom" data-tooltip="Facebook"> <i class="fab fa-facebook 2x"></i> </a></li> 
+    <li><a href="#" class="tooltipped btn-floating btn-larg yellow darken-3 soc__li" data-position="bottom" data-tooltip="Twitter"> <i class="fab fa-google-plus-g"></i> </a></li>
+    <li><a href="#" class="tooltipped btn-floating btn-larg yellow darken-3 soc__li" data-position="bottom" data-tooltip="Twitter"> <i class="fab fa-vk"></i> </a></li>
+    </ul>
+    </div>
+    </div>
+    </div>  
+    
+      <div class="footer-copyright">
+      <div class="container grey-text text-lighten-4">
+      © 2018 dmistep
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+      </div>
+      </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    });
+  </script>
+</body>
+</html>
