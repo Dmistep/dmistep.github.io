@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&subset=cyrillic');
 body{
   color:#666;
+  font-family: 'Montserrat', sans-serif;
 }
 h1{
   color:#000;
