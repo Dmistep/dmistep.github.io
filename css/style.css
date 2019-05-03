@@ -145,23 +145,14 @@ footer{
   padding:30px;
 }
 @media (max-width: 800px) {
-.showcase-left {
-  margin-top: 0px;
-  }
 .showcase-right h1{
     font-size:1.8em;
     text-align: center;
     }
-#showcase .showcase-right{
-  margin-top: 50px;
-}
 .section-intro__subtitle {
   font-size:1.8em;
 }
 }
 @media (max-width: 768px){
-  #showcase .showcase-right{
-    margin-top: 50px;
-  }
 
 }
