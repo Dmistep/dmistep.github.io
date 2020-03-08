@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>3D.Fabrik</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,400i,500,600,700,800,900&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap&subset=cyrillic" rel="stylesheet">
+  <style>
+    :root {
+      /*      Theme colors        */
+      --text-color: #8d8273;
+      --text-h1: #ffd152;
+      --bg-color: #343233;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      height: 90vh;
+      font-family: 'Montserrat', sans-serif !important;
+    }
+
+    .logo {
+      width: 110px;
+    }
+
+    .welcom {
+      font-weight: bold;
+      font-size: 1rem;
+      line-height: 1.286;
+      text-transform: uppercase;
+      letter-spacing: .3rem;
+      color: var(--text-h1);
+      padding-left: 45px;
+      position: relative;
+    }
+
+    .welcom::before {
+      content: "";
+      display: block;
+      background-color: var(--text-h1);
+      width: 30px;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: var(--text-h1);
+      font-family: 'Poiret One', cursive;
+      padding: 0;
+      display: block;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--text-color);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid p-4">
+    <nav class="nav grid">
+      <img src="images/Logo.svg" alt="" class="logo">
+    </nav>
+  </div>
+  <div class="wrap h-100 d-flex  justify-content-lg-center align-items-lg-center">
+    <div class="container-fluid p-4">
+      <h3 class="welcom">Добро пожаловать!</h3>
+      <div class="row ">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <h1 class="">Фабрика архитектуры. Проектируем будущее.</h1>
+          <p class=" text-color ">Мы рады приветствовать Вас на нашем сайте "3dfabrik" Наша компания
+            предлагает весь
+            комплекс услуг по дизайну квартир, архитектурному проектированию бизнес- центров, офисов, жилых помещений.
+            Так
+            же мы выполняем все проектные работы, готовим генпланы ведем авторский и технический надзор.</p>
+          <p class="text-color">
+            3Д.фабрик - это основанная в Санкт-Петербурге архитектурная фирма, предоставляющая полный спектр услуг для
+            жилых, коммерческих и промышленных проектов. Наша фирма предлагает проектирование, исследования, разработку,
+            техническую поддержку и управление строительством в России и за рубежом.
+
+            Отмеченные наградами архитекторы, художники и дизайнеры 3Д.фабрик стремятся предоставлять креативные
+            дизайнерские решения для клиентов, которые ценят пространство, в котором они живут, работают, играют и
+            учатся.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 mt-3 pl-lg-5">
+          <h3>Начать общение</h3>
+          <a href="mailto:project@3d-fabrik.ru">e-mail: project@3d-fabrik.ru</a><br>
+          <a href="tel:+7812 331-84-77">tel: +7 812 331-84-77</a>
+          <h4>Наш офис</h4>
+          <address>195027, Санкт-Петербург,
+            ул. Магнитогорская, 11, литера А</address>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
