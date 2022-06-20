@@ -37,4 +37,7 @@ p {
     border: 1px solid #000000;
     word-wrap: break-word;
 }
+header {
+  display: none;
+}
 </style>
