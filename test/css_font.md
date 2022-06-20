@@ -155,7 +155,7 @@ font-style: unset;
 
 body{
     width: 90%;
-    max-width: 700px;
+    max-width: 960px;
     box-sizing: border-box;
     margin: 0 auto;
    /* font-size: 18px;*/
@@ -163,7 +163,8 @@ body{
     font-family: 'Roboto Flex', sans-serif;
 }
 h1,h2,h3,h4{ 
-    color:#354361; 
+    /*color:#354361; */
+    color:red;
     
 }
 
