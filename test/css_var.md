@@ -42,7 +42,12 @@ body{
     max-width: 800px;
     margin: 0 auto;
 }
+h1,h2,h3,h4{ 
+    color:#354361; 
+    
+}
 a{
+    color:#034ad8;
     text-decoration:none;
 }
 </style>
