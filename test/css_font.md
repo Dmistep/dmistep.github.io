@@ -163,8 +163,7 @@ body{
     font-family: 'Roboto Flex', sans-serif;
 }
 h1,h2,h3,h4{ 
-    /*color:#354361; */
-    color:red;
+    color:#354361;
     
 }
 
