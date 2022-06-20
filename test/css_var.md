@@ -47,7 +47,7 @@ h1,h2,h3,h4{
     
 }
 a{
-    color:#034ad8;
+    color:#9b4dca;
     text-decoration:none;
 }
 </style>
