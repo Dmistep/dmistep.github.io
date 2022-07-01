@@ -18,6 +18,9 @@
                     Someone famous in <cite title="Source Title">― John Burroughs</cite>
                 </footer>
             </blockquote>
+            {% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
         </div>
     </section>
     {% include service.html %}
